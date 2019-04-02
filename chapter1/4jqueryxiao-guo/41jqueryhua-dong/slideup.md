@@ -2,11 +2,11 @@
 
 ##### （1）参考资料
 
-http://www.runoob.com/jquery/jquery-slide.html
+[http://www.runoob.com/jquery/jquery-slide.html](http://www.runoob.com/jquery/jquery-slide.html)
 
 ##### （1）定义
 
-jQuery slideDown\(\) 方法用于向下滑动元素。
+jQuery slideUp\(\) 方法用于向上滑动元素。
 
 注意: 要使用 clearTimeout\(\) 方法, 在创建执行定时操作时要使用全局变量：
 
@@ -30,8 +30,6 @@ $("#flip").click(function(){
     $("#panel").slideDown();
 });
 ```
-
-
 
 
 
