@@ -31,5 +31,9 @@ JQuery为开发插件的两个方法：
 * $.fn.extend\(object\);
 * $.extend\(object\);
 
+##### （5）第一种开发方式
+
+
+
 
 
