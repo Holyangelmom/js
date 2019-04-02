@@ -33,7 +33,7 @@ setTimeout(function, milliseconds, param1, param2, ...)
 
 ```js
 var myVar;
-myVar = setTimeout(function(){ alert("Hello") }, 3000);
+myVar = setTimeout(function(){alert("Hello") }, 3000);
 clearTimeout(myVar);
 ```
 
