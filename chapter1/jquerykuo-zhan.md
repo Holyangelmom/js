@@ -42,9 +42,9 @@ $.fn.extend\(object\);
 ```js
 ;(function($) {
     $.fn.extend({
-		"函数名":function(自定义参数){
-			//插件代码
-		}
+        "函数名":function(自定义参数){
+            //插件代码
+        }
     });
 }(jQuery));
 
@@ -53,7 +53,7 @@ $.fn.extend\(object\);
 ;(function($) {
     $.fn.函数名=function(自定义参数){
 
-    
+
     }
 }(jQuery));
 ```
@@ -63,6 +63,37 @@ $.fn.extend\(object\);
 ```js
 $("#id").函数名(参数)
 ```
+
+##### （5）第二种开发方式
+
+JQuery.extend\(object\);
+
+$.extend\(object\);
+
+代码规范：
+
+```js
+;(function($) {
+    $.fn.extend({
+        "函数名":function(自定义参数){
+            //插件代码
+        }
+    });
+}(jQuery));
+
+//或者
+
+;(function($) {
+    $.fn.函数名=function(自定义参数){
+
+
+    }
+}(jQuery));
+```
+
+
+
+
 
 
 
