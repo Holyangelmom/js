@@ -15,6 +15,7 @@
 | .class.class | $\(".intro.demo"\) | 所有 class="intro" 且 class="demo" 的元素 |
 | s1,s2,s3 | $\("th,td,.intro"\) | 所有带有匹配选择的元素 |
 | element element | $\("ul li"\) | ul里的所有li |
+| element&gt;element | $\("ul&gt;li"\) | ul里的第一个li |
 
 
 
