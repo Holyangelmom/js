@@ -75,9 +75,9 @@ $.extend\(object\);
 ```js
 ;(function($) {
    $.extend({
-	"函数名":function(自定义参数){
-	    //插件代码
-	}
+        "函数名":function(自定义参数){
+        //插件代码
+    }
     });
 }(jQuery));
 
