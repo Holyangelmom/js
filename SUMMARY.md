@@ -13,6 +13,7 @@
     * [4.1、JQuery滑动](chapter1/4jqueryxiao-guo/41jqueryhua-dong.md)
       * [slideDown\(\)](chapter1/4jqueryxiao-guo/41jqueryhua-dong/slidedown.md)
       * [slideUp\(\)](chapter1/4jqueryxiao-guo/41jqueryhua-dong/slideup.md)
+      * [slideToggle\(\)](chapter1/4jqueryxiao-guo/41jqueryhua-dong/slidetoggle.md)
 * [JavaScript](javascript.md)
   * [1、Browser 对象](javascript/1browser-dui-xiang.md)
     * [1.1、Window 对象](javascript/1browser-dui-xiang/11window-dui-xiang.md)
