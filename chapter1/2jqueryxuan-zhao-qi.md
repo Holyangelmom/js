@@ -1,10 +1,10 @@
 ### 2、JQuery选择器
 
-（1）参考资料
+##### （1）参考资料
 
-http://www.w3school.com.cn/jquery/jquery\_ref\_selectors.asp
+[http://www.w3school.com.cn/jquery/jquery\_ref\_selectors.asp](http://www.w3school.com.cn/jquery/jquery_ref_selectors.asp)
 
-（1）常用选择器
+##### （1）常用选择器
 
 | 选择器 | 实例 | 选取 |
 | :--- | :--- | :--- |
