@@ -2,7 +2,7 @@
 
 ##### （1）参考资料
 
-http://www.runoob.com/jsref/met-win-settimeout.html
+[http://www.runoob.com/jsref/met-win-settimeout.html](http://www.runoob.com/jsref/met-win-settimeout.html)
 
 ##### （1）定义
 
@@ -31,7 +31,11 @@ setTimeout(function, milliseconds, param1, param2, ...)
 
 ##### （3）实例
 
+```js
+var myVar;
+myVar = setTimeout(function(){ alert("Hello") }, 3000);
+clearTimeout(myVar);
+```
 
 
-（4）
 
