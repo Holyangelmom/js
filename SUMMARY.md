@@ -9,4 +9,5 @@
   * [2、JQuery零碎知识](chapter1/23001-ling-sui-zhi-shi.md)
     * [2.1、var $this = $\(this\)](chapter1/23001-ling-sui-zhi-shi/21var-this-this.md)
   * [3、JQuery选择器](chapter1/2jqueryxuan-zhao-qi.md)
+* [JavaScript](javascript.md)
 
