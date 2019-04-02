@@ -1,4 +1,4 @@
-### clearTimeout\(\)
+### setTimeout\(\)
 
 ##### （1）参考资料
 
