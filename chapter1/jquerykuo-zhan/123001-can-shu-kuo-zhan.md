@@ -58,5 +58,22 @@ JQuery参数也可以扩展。依据两种插件扩展方式，参数扩展也�
 
 调用
 
+```js
+// 使用默认值
+	$('#link_tilte_a').hilight();
+
+	// 改变默认值
+	$('#link_tilte_a').hilight({
+		"color" : "pink"
+	});
+
+	//单独定义一个变量传入
+	var dataInit = {
+		"color" : "pink",
+		"background" : "red"
+	};
+	$('#link_tilte_a').hilight(dataInit);
+```
+
 
 
