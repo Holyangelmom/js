@@ -33,6 +33,7 @@ setTimeout(function, milliseconds, param1, param2, ...)
 
 ```js
 var myVar;
+//匿名函数，所有函数都支持
 myVar = setTimeout(function(){alert("Hello") }, 3000);
 clearTimeout(myVar);
 ```
