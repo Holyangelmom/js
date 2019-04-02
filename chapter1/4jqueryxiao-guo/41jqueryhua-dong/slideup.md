@@ -8,12 +8,10 @@
 
 jQuery slideUp\(\) 方法用于向上滑动元素。
 
-注意: 要使用 clearTimeout\(\) 方法, 在创建执行定时操作时要使用全局变量：
-
 ##### （2）语法
 
 ```js
-$(selector).slideDown(speed,callback);
+$(selector).slideUp(speed,callback);
 ```
 
 参数：
