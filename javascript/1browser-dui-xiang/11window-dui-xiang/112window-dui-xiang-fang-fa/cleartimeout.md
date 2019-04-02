@@ -2,11 +2,11 @@
 
 ##### （1）参考资料
 
-http://www.runoob.com/jsref/met-win-cleartimeout.html
+[http://www.runoob.com/jsref/met-win-cleartimeout.html](http://www.runoob.com/jsref/met-win-cleartimeout.html)
 
 ##### （1）定义
 
-setTimeout\(\) 方法用于在指定的毫秒数后调用函数或计算表达式。使用 clearTimeout\(\) 方法来阻止函数的执行。
+clearTimeout\(\) 方法用于在指定的毫秒数后调用函数或计算表达式。使用 clearTimeout\(\) 方法来阻止函数的执行。
 
 ##### （2）语法
 
