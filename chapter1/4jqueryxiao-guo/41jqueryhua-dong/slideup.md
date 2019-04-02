@@ -25,7 +25,7 @@ $(selector).slideUp(speed,callback);
 
 ```js
 $("#flip").click(function(){
-    $("#panel").slideDown();
+    $("#panel").slideUp();
 });
 ```
 
