@@ -33,5 +33,27 @@ JQuery参数也可以扩展。依据两种插件扩展方式，参数扩展也�
 
 ##### （3）调用
 
+编写插件
+
+```js
+;(function($) {
+	// plugin definition
+	$.fn.hilight = function(options) {
+		var defaults = {
+			color : 'red',
+			background : 'yellow'
+		};
+		// Extend our default options with those provided.
+		var opts = $.extend(defaults, options);
+		// Our plugin implementation code goes here.
+		var $this = $(this);
+		$this.css({
+			background : opts.background,
+			color : opts.color
+		})
+	};
+})(jQuery);
+```
+
 
 
