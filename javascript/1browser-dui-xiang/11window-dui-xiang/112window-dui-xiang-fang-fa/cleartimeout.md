@@ -6,7 +6,11 @@
 
 ##### （1）定义
 
-clearTimeout\(\) 方法用于在指定的毫秒数后调用函数或计算表达式。使用 clearTimeout\(\) 方法来阻止函数的执行。
+clearTimeout\(\) 方法可取消由 setTimeout\(\) 方法设置的定时操作。
+
+clearTimeout\(\) 方法的参数必须是由 setTimeout\(\) 返回的 ID 值。
+
+注意: 要使用 clearTimeout\(\) 方法, 在创建执行定时操作时要使用全局变量：
 
 ##### （2）语法
 
