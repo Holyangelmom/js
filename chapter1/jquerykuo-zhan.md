@@ -10,10 +10,10 @@
 
 ##### （3）两种插件开发方式
 
-jQuery为开发插件的两个方法：
+JQuery为开发插件的两个方法：
 
-* jQuery.fn.extend\(object\);
-* jQuery.extend\(object\);
+* JQuery.fn.extend\(object\);
+* JQuery.extend\(object\);
 
 等价于
 
