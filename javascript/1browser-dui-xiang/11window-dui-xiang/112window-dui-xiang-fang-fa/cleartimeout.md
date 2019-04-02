@@ -2,7 +2,7 @@
 
 ##### （1）参考资料
 
-[http://www.runoob.com/jsref/met-win-settimeout.html](http://www.runoob.com/jsref/met-win-cleartimeout.html)
+http://www.runoob.com/jsref/met-win-cleartimeout.html
 
 ##### （1）定义
 
