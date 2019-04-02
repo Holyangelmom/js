@@ -2,7 +2,7 @@
 
 ##### （1）参考资料
 
-http://www.runoob.com/jquery/jquery-slide.html
+[http://www.runoob.com/jquery/jquery-slide.html](http://www.runoob.com/jquery/jquery-slide.html)
 
 ##### （1）定义
 
@@ -23,6 +23,12 @@ $(selector).slideDown(speed,callback);
 | id\_of\_setinterval | 调用 setTimeout\(\) 函数时所获得的返回值，使用该返回标识符作为参数，可以取消该 setTimeout\(\) 所设定的定时执行操作。 |
 
 ##### （3）实例
+
+```js
+$("#flip").click(function(){
+  $("#panel").slideDown();
+});
+```
 
 
 
