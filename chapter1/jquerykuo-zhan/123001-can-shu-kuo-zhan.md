@@ -10,7 +10,7 @@ JQuery参数也可以扩展。依据两种插件扩展方式，参数扩展也�
         var defaults = {  
             foreground: 'red',  
             background: 'yellow'  
-            };  
+        };  
         var opts = $.extend(defaults, options);
     };
 })(jQuery);
