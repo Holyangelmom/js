@@ -20,16 +20,7 @@ JQuery函数对象也可以扩展。依据两种插件扩展方式，函数对�
 ##### （2）第二种方式
 
 ```js
-;(function($){
-    $.fn.extend({
-        "函数名":function(options){
-            options = $.extend({
-                foreground:'red',
-                background:'yellow'
-            },options);
-        }
-    });
-})(jQuery);
+（暂时不会）
 ```
 
 
