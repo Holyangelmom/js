@@ -20,16 +20,18 @@ JQuery参数也可以扩展。依据两种插件扩展方式，参数扩展也�
 
 ```js
 ;(function($){
-	$.fn.extend({
-		"函数名":function(options){
-			options = $.extend({
-				foreground:'red',
-				background:'yellow'
-			},options);
-		}
-	});
+    $.fn.extend({
+        "函数名":function(options){
+            options = $.extend({
+                foreground:'red',
+                background:'yellow'
+            },options);
+        }
+    });
 })(jQuery);
 ```
+
+##### （3）调用
 
 
 
