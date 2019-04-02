@@ -10,5 +10,15 @@
 
 ##### （3）两种插件开发方式
 
+jQuery为开发插件的两个方法：
+
+* jQuery.fn.extend\(object\);
+* jQuery.extend\(object\);
+
+等价于
+
+* $.fn.extend\(object\);
+* $.extend\(object\);
+
 
 
