@@ -1,5 +1,9 @@
 ### clearTimeout\(\)
 
+##### （1）参考资料
+
+http://www.runoob.com/jsref/met-win-settimeout.html
+
 ##### （1）定义
 
 setTimeout\(\) 方法用于在指定的毫秒数后调用函数或计算表达式。使用 clearTimeout\(\) 方法来阻止函数的执行。
@@ -25,5 +29,9 @@ setTimeout(function, milliseconds, param1, param2, ...)
 | :--- | :--- |
 
 
+##### （3）实例
 
+
+
+（4）
 
