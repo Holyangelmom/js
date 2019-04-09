@@ -18,7 +18,7 @@ addClass\(\) 方法向被选元素添加一个或多个类名。
 $(selector).addClass(classname, function(index,oldclass))
 ```
 
-| 参数 | 描述 |
+| **参数** | **描述** |
 | :--- | :--- |
 | classname | 必需。规定一个或多个要添加的类名称。 |
 | function\(index, currentclass\) | 可选。规定返回一个或多个待添加类名的函数。index - 返回集合中元素的 index 位置。currentclass - 返回被选元素的当前类名。 |
