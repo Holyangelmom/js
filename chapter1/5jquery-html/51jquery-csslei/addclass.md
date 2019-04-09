@@ -28,7 +28,13 @@ $(selector).addClass(classname, function(index,oldclass))
 ```js
 //向指定元素添加两个类名
 $("p:first").addClass("intro note");
+```
 
+```js
+//使用函数向被选元素添加类
+$("p").addClass(function(index, currentclass){
+    return "par_" + index;
+});
 ```
 
 
