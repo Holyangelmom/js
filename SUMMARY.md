@@ -16,6 +16,7 @@
       * [slideToggle\(\)](chapter1/4jqueryxiao-guo/41jqueryhua-dong/slidetoggle.md)
   * [5、JQuery HTML](chapter1/5jquery-html.md)
     * [5.1、JQuery CSS类](chapter1/5jquery-html/51jquery-csslei.md)
+      * [addClass\(\)](chapter1/5jquery-html/51jquery-csslei/addclass.md)
 * [JavaScript](javascript.md)
   * [1、Browser 对象](javascript/1browser-dui-xiang.md)
     * [1.1、Window 对象](javascript/1browser-dui-xiang/11window-dui-xiang.md)
