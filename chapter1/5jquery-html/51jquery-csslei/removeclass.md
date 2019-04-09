@@ -28,5 +28,16 @@ $(selector).removeClass(classname, function(index,currentclass))
 $("p,h1").removeClass("head intro main");
 ```
 
+```js
+//使用函数从被选元素移除一个类
+$("li").removeClass(function(n, currentClass) {
+    if (n==0||n==1) {
+        return "listitem"
+    }else {
+        return ""
+    }
+});
+```
+
 
 
