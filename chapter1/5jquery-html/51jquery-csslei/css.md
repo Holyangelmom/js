@@ -26,8 +26,12 @@ css\(\) 方法设置或返回被选元素的一个或多个样式属性。
 
 （5）设置多个 CSS 属性
 
-```
+```js
 语法：$(selector).css({"propertyname","value"});
+```
+
+```js
+实例:$("p").css({"background-color":"yellow","font-size":"200%"});
 ```
 
 
