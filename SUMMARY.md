@@ -23,7 +23,7 @@
 * [JavaScript](javascript.md)
   * [1、Browser 对象](javascript/1browser-dui-xiang.md)
     * [1.1、Window 对象](javascript/1browser-dui-xiang/11window-dui-xiang.md)
-      * 1.1.1、Window 对象属性
+      * [1.1.1、Window 对象属性](javascript/1browser-dui-xiang/11window-dui-xiang/111window-dui-xiang-shu-xing.md)
       * [1.1.2、Window 对象方法](javascript/1browser-dui-xiang/11window-dui-xiang/112window-dui-xiang-fang-fa.md)
         * [clearTimeout\(\)](javascript/1browser-dui-xiang/11window-dui-xiang/112window-dui-xiang-fang-fa/cleartimeout.md)
         * [setTimeout\(\)](javascript/1browser-dui-xiang/11window-dui-xiang/112window-dui-xiang-fang-fa/settimeout.md)
