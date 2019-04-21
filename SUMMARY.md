@@ -32,4 +32,5 @@
     * [concat\(\)](javascript/2stringdui-xiang/concat.md)
     * [indexOf\(\)](javascript/2stringdui-xiang/indexof.md)
     * [match\(\)](javascript/2stringdui-xiang/match.md)
+    * [replace\(\)](javascript/2stringdui-xiang/replace.md)
 
