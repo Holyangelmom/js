@@ -19,6 +19,7 @@
 | cache | 默认为true（当dataType为script时，默认为false），设置为false将不会从浏览器缓存中加载请求信息。 |
 | data | Object或String类型的参数，发送到服务器的数据。如果已经不是字符串，将自动转换为字符串格式。get请求中将附加在url后。防止这种自动转换，可以查看processData选项。对象必须为key/value格式，例如{foo1:"bar1",foo2:"bar2"}转换为&foo1=bar1&foo2=bar2。如果是数组，JQuery将自动为不同值对应同一个名称。例如{foo:\["bar1","bar2"\]}转换为&foo=bar1&foo=bar2。 |
 | dataType | String类型的参数，预期服务器返回的数据类型。如果不指定，JQuery将自动根据http包mime信息返回responseXML或responseText，并作为回调函数参数传递。**xml**：返回XML文档，可用JQuery处理。**html**：返回纯文本HTML信息；包含的script标签会在插入DOM时执行。**script**：返回纯文本JavaScript代码。不会自动缓存结果。除非设置了cache参数。注意在远程请求时（不在同一个域下），所有post请求都将转为get请求。**json**：返回JSON数据。**jsonp**：JSONP格式。使用SONP形式调用函数时，例如myurl?callback=?，JQuery将自动替换后一个“?”为正确的函数名，以执行回调函数。**text**：返回纯文本字符串。 |
+| traditional | 实际上是设置 jQuery.param 的traditional 参数，默认为false,当设置为true后，会导致多层次的对象序列化为\[object object\]（浅序列化）。当提交的参数是数组\( {selectUsers:\[value,value,value\]} \),如果是false的话,则提交时会是"selectUsers\[\]=value&selectUsers\[\]=value"。如果设置成true,则提交时会是"selectUsers=value&selectUsers=value"。这样后台就能用String\[\] ids=request.getParameterValues\("selectUsers"\); 获取到值。 |
 | contentType | 当发送信息至服务器时，内容编码类型默认为"application/x-www-form-urlencoded"。该默认值适合大多数应用场合。当发送到服务器端的数据为复杂格式的json对象时，将contentType设置为application/json。 |
 | jsonp | String类型的参数，在一个jsonp请求中重写回调函数的名字。该值用来替代在"callback=?"这种GET或POST请求中URL参数里的"callback"部分，例如{jsonp:'onJsonPLoad'}会导致将"onJsonPLoad=?"传给服务器。 |
 | username | String类型的参数，用于响应HTTP访问认证请求的用户名。 |
