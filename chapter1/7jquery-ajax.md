@@ -2,7 +2,7 @@
 
 ##### 1、参考资料
 
-https://www.cnblogs.com/zhangruisoldier/p/8006099.html
+[https://www.cnblogs.com/zhangruisoldier/p/8006099.html](https://www.cnblogs.com/zhangruisoldier/p/8006099.html)
 
 ##### 2、列表
 
@@ -28,7 +28,7 @@ https://www.cnblogs.com/zhangruisoldier/p/8006099.html
 | global | 表示是否触发全局ajax事件。设置为false将不会触发全局ajax事件，ajaxStart或ajaxStop可用于控制各种ajax事件。 |
 | ifModified | Boolean类型的参数，默认为false。仅在服务器数据改变时获取新数据。服务器数据改变判断的依据是Last-Modified头信息。默认值是false，即忽略头信息。 |
 
-函数类型参数
+**函数类型参数**
 
 beforeSend：
 
@@ -42,77 +42,62 @@ this; //调用本次ajax请求时传递的options参数
 }
 ```
 
-9.complete：
+complete：
 
 要求为Function类型的参数，请求完成后调用的回调函数（请求成功或失败时均调用）。参数：XMLHttpRequest对象和一个描述成功请求类型的字符串。
 
-          function\(XMLHttpRequest, textStatus\){
+```js
+function\(XMLHttpRequest, textStatus\){
 
-             this;    //调用本次ajax请求时传递的options参数
+   this;    //调用本次ajax请求时传递的options参数
 
-          }
+}
+```
 
+success：要求为Function类型的参数，请求成功后调用的回调函数，有两个参数。\(1\)由服务器返回，并根据dataType参数进行处理后的数据，\(2\)描述状态的字符串。
 
+```js
+function (data, textStatus\){
+  //data可能是xmlDoc、jsonObj、html、text等等
+  this;  //调用本次ajax请求时传递的options参数
+}
+```
 
-10.success：要求为Function类型的参数，请求成功后调用的回调函数，有两个参数。
-
-         \(1\)由服务器返回，并根据dataType参数进行处理后的数据。
-
-         \(2\)描述状态的字符串。
-
-         function\(data, textStatus\){
-
-            //data可能是xmlDoc、jsonObj、html、text等等
-
-            this;  //调用本次ajax请求时传递的options参数
-
-         }
-
-
-
-11.error:
+error:
 
 要求为Function类型的参数，请求失败时被调用的函数。该函数有3个参数，即XMLHttpRequest对象、错误信息、捕获的错误对象\(可选\)。ajax事件函数如下：
 
-       function\(XMLHttpRequest, textStatus, errorThrown\){
+```js
+function (XMLHttpRequest, textStatus, errorThrown\){
 
-          //通常情况下textStatus和errorThrown只有其中一个包含信息
+   //通常情况下textStatus和errorThrown只有其中一个包含信息
 
-          this;   //调用本次ajax请求时传递的options参数
+   this;   //调用本次ajax请求时传递的options参数
 
-       }
+}
+```
 
-
-
-12.contentType：
-
-要求为String类型的参数，当发送信息至服务器时，内容编码类型默认为"application/x-www-form-urlencoded"。该默认值适合大多数应用场合。
-
-
-
-13.dataFilter：
+dataFilter：
 
 要求为Function类型的参数，给Ajax返回的原始数据进行预处理的函数。提供data和type两个参数。data是Ajax返回的原始数据，type是调用jQuery.ajax时提供的dataType参数。函数返回的值将由jQuery进一步处理。
 
-            function\(data, type\){
+```js
+function (data, type\){
+    //返回处理后的数据
+    return data;
+}
+```
 
-                //返回处理后的数据
-
-                return data;
-
-            }
-
-
-
-14.dataFilter：
+dataFilter：
 
 要求为Function类型的参数，给Ajax返回的原始数据进行预处理的函数。提供data和type两个参数。data是Ajax返回的原始数据，type是调用jQuery.ajax时提供的dataType参数。函数返回的值将由jQuery进一步处理。
 
-            function\(data, type\){
+```js
+function\(data, type\){
+    //返回处理后的数据
+    return data;
+}
+```
 
-                //返回处理后的数据
 
-                return data;
-
-            }
 
