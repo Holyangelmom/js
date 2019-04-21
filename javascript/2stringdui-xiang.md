@@ -1,4 +1,4 @@
-### indexOf\(\)
+### 2、String对象
 
 
 
