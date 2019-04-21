@@ -76,7 +76,7 @@ var n=str.replace(/blue/gi, "red");
 Mr red has a red house and a red car
 ```
 
-```
+```js
 //通过 prototype 为 JavaScript 的 String 对象添加方法，来实现将所有 "Microsoft" 替换为 "Runoob"：
 String.prototype.replaceAll = function(search, replacement) {
     var target = this;
