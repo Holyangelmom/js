@@ -22,9 +22,10 @@ stringObject.indexOf(searchvalue,fromindex)
 ##### （4）实例
 
 ```js
-var str1="Hello "
-var str2="world!"
-document.write(str1.concat(str2))
+var str="Hello world!"
+document.write(str.indexOf("Hello") + "<br />")
+document.write(str.indexOf("World") + "<br />")
+document.write(str.indexOf("world"))
 ```
 
 
