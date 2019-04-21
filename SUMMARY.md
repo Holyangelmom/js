@@ -34,4 +34,5 @@
     * [match\(\)](javascript/2stringdui-xiang/match.md)
     * [replace\(\)](javascript/2stringdui-xiang/replace.md)
     * [search\(\)](javascript/2stringdui-xiang/search.md)
+    * [slice\(\)](javascript/2stringdui-xiang/slice.md)
 
