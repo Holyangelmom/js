@@ -55,12 +55,9 @@ Visit W3School!
 
 ```js
 //执行一次全局替换，每当 "Microsoft" 被找到，它就被替换为 "W3School"：
-
-
 var str="Welcome to Microsoft! "
 str=str + "We are proud to announce that Microsoft has "
 str=str + "one of the largest Web Developers sites in the world."
-
 document.write(str.replace(/Microsoft/g, "W3School"))
 
 //输出：
@@ -72,6 +69,7 @@ has one of the largest Web Developers sites in the world.
 //执行一个全局替换, 忽略大小写:
 var str="Mr Blue has a blue house and a blue car";
 var n=str.replace(/blue/gi, "red");
+
 //n 输出结果:
 Mr red has a red house and a red car
 ```
