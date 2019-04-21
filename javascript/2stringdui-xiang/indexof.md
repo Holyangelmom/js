@@ -2,11 +2,11 @@
 
 ##### （1）参考资料
 
-http://www.w3school.com.cn/jsref/jsref\_indexOf.asp
+[http://www.w3school.com.cn/jsref/jsref\_indexOf.asp](http://www.w3school.com.cn/jsref/jsref_indexOf.asp)
 
 ##### （2）定义
 
-indexOf\(\) 方法可返回某个指定的字符串值在字符串中首次出现的位置。如果要检索的字符串值没有出现，则该方法返回 -1。
+indexOf\(\) 方法可返回某个指定的字符串值在字符串中首次出现的位置。如果要检索的字符串值没有出现，则该方法返回 -1。indexOf\(\) 方法对大小写敏感！
 
 ##### （3）语法
 
