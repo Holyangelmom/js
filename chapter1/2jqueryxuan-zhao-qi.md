@@ -13,12 +13,30 @@
 | .class | $\(".intro"\) | 所有 class="intro" 的元素 |
 | element | $\("p"\) | 所有 &lt;p&gt; 元素 |
 | .class.class | $\(".intro.demo"\) | 所有 class="intro" 且 class="demo" 的元素 |
+|  |  |  |
 | :first | $\("p:first"\) | 第一个 &lt;p&gt; 元素 |
 | :last | $\("p:last"\) | 最后一个 &lt;p&gt; 元素 |
 | :contains\(text\) | $\(":contains\('W3School'\)"\) | 包含指定字符串的所有元素 |
+|  |  |  |
 | s1,s2,s3 | $\("th,td,.intro"\) | 所有带有匹配选择的元素 |
 | element element | $\("ul li"\) | ul里的所有li |
 | element&gt;element | $\("ul&gt;li"\) | ul里的第一个li |
+|  |  |  |
+| :input | $\(":input"\) | 所有 &lt;input&gt; 元素 |
+| :text | $\(":text"\) | 所有 type="text" 的 &lt;input&gt; 元素 |
+| :password | $\(":password"\) | 所有 type="password" 的 &lt;input&gt; 元素 |
+| :radio | $\(":radio"\) | 所有 type="radio" 的 &lt;input&gt; 元素 |
+| :checkbox | $\(":checkbox"\) | 所有 type="checkbox" 的 &lt;input&gt; 元素 |
+| :submit | $\(":submit"\) | 所有 type="submit" 的 &lt;input&gt; 元素 |
+| :reset | $\(":reset"\) | 所有 type="reset" 的 &lt;input&gt; 元素 |
+| :button | $\(":button"\) | 所有 type="button" 的 &lt;input&gt; 元素 |
+| :image | $\(":image"\) | 所有 type="image" 的 &lt;input&gt; 元素 |
+| :file | $\(":file"\) | 所有 type="file" 的 &lt;input&gt; 元素 |
+|  |  |  |
+| :enabled | $\(":enabled"\) | 所有激活的 input 元素 |
+| :disabled | $\(":disabled"\) | 所有禁用的 input 元素 |
+| :selected | $\(":selected"\) | 所有被选取的 input 元素 |
+| :checked | $\(":checked"\) | 所有被选中的 input 元素 |
 
 
 
