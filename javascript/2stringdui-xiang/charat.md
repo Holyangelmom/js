@@ -20,7 +20,7 @@ stringObject.charAt(index)
 | :--- | :--- |
 | index | 必需。表示字符串中某个位置的数字，即字符在字符串中的下标。 |
 
-（4）实例
+##### （4）实例
 
 ```js
 var str="Hello world!"
