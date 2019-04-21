@@ -39,4 +39,5 @@
     * [toLowerCase\(\)](javascript/2stringdui-xiang/tolowercase.md)
     * [toUpperCase\(\)](javascript/2stringdui-xiang/touppercase.md)
   * [3、js判断变量未定义](javascript/3jspan-duan-bian-liang-wei-ding-yi.md)
+  * [4、false、0、空字符串、null和undefined](javascript/4false03001-kong-zi-fu-chuan-3001-null-he-undefined.md)
 
