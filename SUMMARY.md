@@ -36,4 +36,6 @@
     * [search\(\)](javascript/2stringdui-xiang/search.md)
     * [slice\(\)](javascript/2stringdui-xiang/slice.md)
     * [substring\(\)](javascript/2stringdui-xiang/substring.md)
+    * [toLowerCase\(\)](javascript/2stringdui-xiang/tolowercase.md)
+    * [toUpperCase\(\)](javascript/2stringdui-xiang/touppercase.md)
 
