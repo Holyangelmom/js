@@ -2,7 +2,7 @@
 
 ##### （1）参考资料
 
-http://www.w3school.com.cn/jsref/jsref\_replace.asp
+[http://www.w3school.com.cn/jsref/jsref\_replace.asp](http://www.w3school.com.cn/jsref/jsref_replace.asp)
 
 ##### （2）定义
 
@@ -19,7 +19,7 @@ stringObject.replace(regexp/substr,replacement)
 | 参数 | 描述 |
 | :--- | :--- |
 | regexp/substr | 必需。规定子字符串或要替换的模式的 RegExp 对象。请注意，如果该值是一个字符串，则将它作为要检索的直接量文本模式，而不是首先被转换为 RegExp 对象。 |
-| replacement	 | 必需。一个字符串值。规定了替换文本或生成替换文本的函数。 |
+| replacement | 必需。一个字符串值。规定了替换文本或生成替换文本的函数。 |
 
 返回值
 
@@ -66,6 +66,14 @@ document.write(str.replace(/Microsoft/g, "W3School"))
 //输出：
 Welcome to W3School! We are proud to announce that W3School
 has one of the largest Web Developers sites in the world.
+```
+
+```js
+//执行一个全局替换, 忽略大小写:
+var str="Mr Blue has a blue house and a blue car";
+var n=str.replace(/blue/gi, "red");
+//n 输出结果:
+Mr red has a red house and a red car
 ```
 
 
