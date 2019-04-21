@@ -27,4 +27,6 @@
       * [1.1.2、Window 对象方法](javascript/1browser-dui-xiang/11window-dui-xiang/112window-dui-xiang-fang-fa.md)
         * [clearTimeout\(\)](javascript/1browser-dui-xiang/11window-dui-xiang/112window-dui-xiang-fang-fa/cleartimeout.md)
         * [setTimeout\(\)](javascript/1browser-dui-xiang/11window-dui-xiang/112window-dui-xiang-fang-fa/settimeout.md)
+  * [2、String对象](javascript/2stringdui-xiang.md)
+    * [charAt\(\)](javascript/2stringdui-xiang/charat.md)
 

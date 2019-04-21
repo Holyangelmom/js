@@ -4,7 +4,7 @@
 
 [http://www.runoob.com/jsref/met-win-cleartimeout.html](http://www.runoob.com/jsref/met-win-cleartimeout.html)
 
-##### （1）定义
+##### （2）定义
 
 clearTimeout\(\) 方法可取消由 setTimeout\(\) 方法设置的定时操作。
 
@@ -12,7 +12,7 @@ clearTimeout\(\) 方法的参数必须是由 setTimeout\(\) 返回的 ID 值。
 
 注意: 要使用 clearTimeout\(\) 方法, 在创建执行定时操作时要使用全局变量：
 
-##### （2）语法
+##### （3）语法
 
 ```
 clearTimeout(id_of_settimeout)
@@ -24,7 +24,7 @@ clearTimeout(id_of_settimeout)
 | :--- | :--- |
 | id\_of\_setinterval | 调用 setTimeout\(\) 函数时所获得的返回值，使用该返回标识符作为参数，可以取消该 setTimeout\(\) 所设定的定时执行操作。 |
 
-##### （3）实例
+##### （4）实例
 
 ```js
 var myVar;
