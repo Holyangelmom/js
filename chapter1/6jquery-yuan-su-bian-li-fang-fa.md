@@ -2,20 +2,17 @@
 
 ##### 1、参考资料
 
-http://www.runoob.com/jquery/jquery-ref-traversing.html
+[http://www.runoob.com/jquery/jquery-ref-traversing.html](http://www.runoob.com/jquery/jquery-ref-traversing.html)
 
 ##### 2、方法列表方法
 
 | 方法 | 描述 |
 | :--- | :--- |
 | [add\(\)](http://www.runoob.com/jquery/traversing-add.html) | 把元素添加到匹配元素的集合中 |
-| addBack\(\) | 把之前的元素集添加到当前集合中 |
-| andSelf\(\) | 在版本 1.8 中被废弃。addBack\(\) 的别名 |
 | [children\(\)](http://www.runoob.com/jquery/traversing-children.html) | 返回被选元素的所有直接子元素 |
 | [closest\(\)](http://www.runoob.com/jquery/traversing-closest.html) | 返回被选元素的第一个祖先元素 |
 | [contents\(\)](http://www.runoob.com/jquery/traversing-contents.html) | 返回被选元素的所有直接子元素（包含文本和注释节点） |
 | [each\(\)](http://www.runoob.com/jquery/traversing-each.html) | 为每个匹配元素执行函数 |
-| end\(\) | 结束当前链中最近的一次筛选操作，并把匹配元素集合返回到前一次的状态 |
 | [eq\(\)](http://www.runoob.com/jquery/traversing-eq.html) | 返回带有被选元素的指定索引号的元素 |
 | [filter\(\)](http://www.runoob.com/jquery/traversing-filter.html) | 把匹配元素集合缩减为匹配选择器或匹配函数返回值的新元素 |
 | [find\(\)](http://www.runoob.com/jquery/traversing-find.html) | 返回被选元素的后代元素 |
