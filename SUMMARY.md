@@ -30,4 +30,5 @@
   * [2、String对象](javascript/2stringdui-xiang.md)
     * [charAt\(\)](javascript/2stringdui-xiang/charat.md)
     * [concat\(\)](javascript/2stringdui-xiang/concat.md)
+    * [indexOf\(\)](javascript/2stringdui-xiang/indexof.md)
 
