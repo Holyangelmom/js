@@ -69,14 +69,14 @@ var form = document.createElement("form");
 3、追加dom元素
 
 ```
+//语法
 parentElement.appendChild(childElement);
+
+//实例
+var child = document.createElement("p");
+var parent = document.createElement("div");
+parent.appendChild(child);
 ```
-
-
-
-
-
-
 
 
 
