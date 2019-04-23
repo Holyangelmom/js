@@ -40,20 +40,18 @@ document.getElementsByTagName(tagName)
 var value = document.getElementsByTagName("p")[0].childNodes[0].nodeValue;
 ```
 
-#####  getElementsByClassName\(\) 
+##### getElementsByClassName\(\)
 
 ```js
 //语法
-document.getElementsByClassName("btn");
+document.getElementsByClassName(className);
 //返回值
 返回值：数组对象; 如果无符合条件的对象，则返回空数组，按在页面中出现的次序
 
 
 //实例
-var value = document.getElementsByTagName("p")[0].childNodes[0].nodeValue;
+var value = document.getElementsByClassName("className")[0].childNodes[0].nodeValue;
 ```
-
-
 
 ##### 2、创建dom元素
 
