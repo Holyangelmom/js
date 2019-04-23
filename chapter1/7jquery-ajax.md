@@ -4,7 +4,7 @@
 
 [https://www.cnblogs.com/zhangruisoldier/p/8006099.html](https://www.cnblogs.com/zhangruisoldier/p/8006099.html)
 
-##### 2、列表
+##### 2、参数列表
 
 如参老资料所说，jquery中的ajax方法参数总是记不住，这里记录一下。哈哈
 
