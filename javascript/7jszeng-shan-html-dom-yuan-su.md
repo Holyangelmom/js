@@ -37,7 +37,7 @@ document.getElementsByTagName(tagName)
 
 
 //实例
-var div = document.getElementById("div1");
+var value = document.getElementsByTagName("p")[0].childNodes[0].nodeValue;  
 ```
 
 ##### 
