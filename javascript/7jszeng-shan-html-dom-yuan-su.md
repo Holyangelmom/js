@@ -68,7 +68,7 @@ var form = document.createElement("form");
 
 3、追加dom元素
 
-```
+```js
 //语法
 parentElement.appendChild(childElement);
 
