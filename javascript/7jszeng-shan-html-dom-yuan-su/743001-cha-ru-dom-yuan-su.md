@@ -16,7 +16,7 @@ var parent = document.createElement("div");
 parent.appendChild(child);
 ```
 
-3、实例
+##### 3、实例
 
 ```js
 var newItem=document.createElement("LI")
