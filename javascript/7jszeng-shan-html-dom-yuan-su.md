@@ -20,16 +20,25 @@ document.getElementsByName\(name\)
 //语法
 document.getElementsByName(name)
 //返回值
-数组对象; 如果无符合条件的对象，则返回空数组，按在页面中出现的次序,如果无符合条件的对象，则返回 null
+数组对象; 如果无符合条件的对象，则返回空数组，按在页面中出现的次序
 
 
 //实例
 var div= document.getElementById("div1");
 ```
 
+getElementsByTagName
+
+```js
+//语法
+document.getElementsByTagName(tagName)
+//返回值
+返回值：数组对象; 如果无符合条件的对象，则返回空数组，按在页面中出现的次序
 
 
-##### 
+//实例
+var div= document.getElementById("div1");
+```
 
 ##### 
 
