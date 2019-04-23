@@ -3,7 +3,7 @@
 创建dom元素
 
 ```js
-//语法：
+//语法
 document.createElement(domElementName);
 
 
