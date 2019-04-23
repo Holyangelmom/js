@@ -11,7 +11,7 @@ document.getElementById(id);
 返回相同id的dom对象中的第一个，按在页面中出现的次序,如果无符合条件的对象，则返回 null
 
 //实例
-var div= document.getElementById("div1");
+var div = document.getElementById("div1");
 ```
 
 document.getElementsByName\(name\)
@@ -24,7 +24,7 @@ document.getElementsByName(name)
 
 
 //实例
-var div= document.getElementById("div1");
+var value = document.getElementsByName("name1")[0].value;
 ```
 
 getElementsByTagName
@@ -37,7 +37,7 @@ document.getElementsByTagName(tagName)
 
 
 //实例
-var div= document.getElementById("div1");
+var div = document.getElementById("div1");
 ```
 
 ##### 
