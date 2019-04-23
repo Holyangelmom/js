@@ -1,10 +1,4 @@
-### js操作html dom元素
-
-##### 
-
-##### 
-
-##### 3、追加dom元素
+### 追加dom元素
 
 ```js
 //语法
@@ -16,5 +10,5 @@ var parent = document.createElement("div");
 parent.appendChild(child);
 ```
 
-4、插入元素
+
 
