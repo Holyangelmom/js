@@ -22,6 +22,7 @@
       * [css\(\)](chapter1/5jquery-html/51jquery-csslei/css.md)
   * [6、jQuery 元素遍历方法](chapter1/6jquery-yuan-su-bian-li-fang-fa.md)
   * [7、JQuery $.ajax](chapter1/7jquery-ajax.md)
+    * [7.1、ajax参数](chapter1/7jquery-ajax/71ajaxcan-shu.md)
 * [JavaScript](javascript.md)
   * [1、Browser 对象](javascript/1browser-dui-xiang.md)
     * [1.1、Window 对象](javascript/1browser-dui-xiang/11window-dui-xiang.md)
