@@ -40,7 +40,7 @@ document.getElementsByTagName(tagName)
 var value = document.getElementsByTagName("p")[0].childNodes[0].nodeValue;
 ```
 
-##### getElementsByClassName\(\)
+getElementsByClassName\(\)
 
 ```js
 //语法
@@ -66,5 +66,17 @@ var div = document.createElement("div");
 var form = document.createElement("form");
 ```
 
-3、
+3、追加dom元素
+
+```
+parentElement.appendChild(childElement);
+```
+
+
+
+
+
+
+
+
 
