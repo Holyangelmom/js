@@ -48,4 +48,5 @@
   * [5、JSON序列化与反序列化](javascript/5jsonxu-lie-hua-yu-fan-xu-lie-hua.md)
   * [6、表单序列化](javascript/63001-biao-dan-xu-lie-hua.md)
   * [7、js操作html dom元素](javascript/7jszeng-shan-html-dom-yuan-su.md)
+    * [7.1、获取dom元素](javascript/7jszeng-shan-html-dom-yuan-su/713001-huo-qu-dom-yuan-su.md)
 

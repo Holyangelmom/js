@@ -1,8 +1,6 @@
-### js操作html dom元素
+### 获取dom元素
 
-##### 1、获取dom元素
-
-getElementById
+##### 1、getElementById
 
 ```js
 //语法
@@ -14,7 +12,7 @@ document.getElementById(id);
 var div = document.getElementById("div1");
 ```
 
-document.getElementsByName\(name\)
+##### 2、document.getElementsByName\(name\)
 
 ```js
 //语法
@@ -27,7 +25,7 @@ document.getElementsByName(name)
 var value = document.getElementsByName("name1")[0].value;
 ```
 
-getElementsByTagName
+##### 3、getElementsByTagName
 
 ```js
 //语法
@@ -40,7 +38,7 @@ document.getElementsByTagName(tagName)
 var value = document.getElementsByTagName("p")[0].childNodes[0].nodeValue;
 ```
 
-getElementsByClassName\(\)
+##### 4、getElementsByClassName\(\)
 
 ```js
 //语法
@@ -52,35 +50,6 @@ document.getElementsByClassName(className);
 //实例
 var value = document.getElementsByClassName("className")[0].childNodes[0].nodeValue;
 ```
-
-##### 2、创建dom元素
-
-```js
-//语法
-document.createElement(domElementName);
-
-
-//实例
-var p = document.createElement("p");
-var div = document.createElement("div");
-var form = document.createElement("form");
-```
-
-##### 3、追加dom元素
-
-```js
-//语法
-parentElement.appendChild(childElement);
-
-//实例
-var child = document.createElement("p");
-var parent = document.createElement("div");
-parent.appendChild(child);
-```
-
-4、插入元素
-
-
 
 
 
