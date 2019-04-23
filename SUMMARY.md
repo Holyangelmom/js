@@ -51,4 +51,5 @@
     * [7.1、获取dom元素](javascript/7jszeng-shan-html-dom-yuan-su/713001-huo-qu-dom-yuan-su.md)
     * [7.2、创建dom元素](javascript/7jszeng-shan-html-dom-yuan-su/723001-chuang-jian-dom-yuan-su.md)
     * [7.3、追加dom元素](javascript/7jszeng-shan-html-dom-yuan-su/733001-zhui-jia-dom-yuan-su.md)
+    * [7.4、插入dom元素](javascript/7jszeng-shan-html-dom-yuan-su/743001-cha-ru-dom-yuan-su.md)
 
