@@ -2,6 +2,8 @@
 
 ##### 1、获取dom元素
 
+getElementById
+
 ```js
 //语法
 document.getElementById(id);
@@ -11,6 +13,25 @@ document.getElementById(id);
 //实例
 var div= document.getElementById("div1");
 ```
+
+document.getElementsByName\(name\)
+
+```js
+//语法
+document.getElementsByName(name)
+//返回值
+数组对象; 如果无符合条件的对象，则返回空数组，按在页面中出现的次序,如果无符合条件的对象，则返回 null
+
+
+//实例
+var div= document.getElementById("div1");
+```
+
+
+
+##### 
+
+##### 
 
 ##### 2、创建dom元素
 
