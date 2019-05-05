@@ -31,6 +31,7 @@
       * [7.2.1、前端报错unable to decode value](chapter1/7jquery-ajax/72ajaxling-sui-wen-ti/721unable-to-decode-value.md)
   * [8、jQuery 事件方法](chapter1/8jquery-shi-jian-fang-fa.md)
   * [9、JQuery事件监听方法](chapter1/9jqueryshi-jian-jian-ting-fang-fa.md)
+  * [10、jQuery 属性操作方法](chapter1/10jquery-shu-xing-cao-zuo-fang-fa.md)
 * [JavaScript](javascript.md)
   * [1、Browser 对象](javascript/1browser-dui-xiang.md)
     * [1.1、Window 对象](javascript/1browser-dui-xiang/11window-dui-xiang.md)
