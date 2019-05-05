@@ -55,12 +55,12 @@ on(type,[selector],[data],fn)
 * data：可选，通过event.data取到；
 * function：监听函数，可传入event对象，这里的event是jquery封装的event对象。
 
-
-
 实例：
 
-```
-
+```js
+$('div').on('click','p',function(){	
+    $('p').css('color','red');
+}
 ```
 
 
