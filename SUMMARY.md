@@ -53,4 +53,5 @@
     * [7.3、追加dom元素](javascript/7jszeng-shan-html-dom-yuan-su/733001-zhui-jia-dom-yuan-su.md)
     * [7.4、插入dom元素](javascript/7jszeng-shan-html-dom-yuan-su/743001-cha-ru-dom-yuan-su.md)
     * [7.5、移除dom元素](javascript/7jszeng-shan-html-dom-yuan-su/753001-yi-chu-dom-yuan-su.md)
+  * [8、比较两个日期的大小的2种方法](javascript/83001-bi-jiao-liang-ge-ri-qi-de-da-xiao-de-2-zhong-fang-fa.md)
 
