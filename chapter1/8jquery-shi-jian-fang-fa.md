@@ -2,7 +2,7 @@
 
 ##### （1）参考资料
 
-https://www.runoob.com/jquery/jquery-ref-events.html
+[https://www.runoob.com/jquery/jquery-ref-events.html](https://www.runoob.com/jquery/jquery-ref-events.html)
 
 ##### （2）事件方法列表
 
@@ -38,6 +38,23 @@ https://www.runoob.com/jquery/jquery-ref-events.html
 | [scroll\(\)](https://www.runoob.com/jquery/event-scroll.html) | 添加/触发 scroll 事件 |
 | [select\(\)](https://www.runoob.com/jquery/event-select.html) | 添加/触发 select 事件 |
 | [submit\(\)](https://www.runoob.com/jquery/event-submit.html) | 添加/触发 submit 事件 |
+
+##### （3）实例
+
+对于由 jQuery 动态生成的元素，如用 jQuery 给元素添加 class，或者直接添加一对 p 标签，不能直接绑定常用的事件，如 click。因为这些元素属于动态生成，除非采用 noclick 内联的形式。那么解决办法是使用 live 和 on 事件方法。
+
+注意，jquery 1.7.2 之后的版本不建议使用 live。
+
+```js
+//例如：
+$(".box ").click(function(){});
+
+//类名为 box 的元素是由 jquery 动态生成，以上写法将会无效，那么可以改为如下：
+$(".box ").live('click', function(){});
+
+//或者：
+$(".box ").on('click', function(){});
+```
 
 
 
