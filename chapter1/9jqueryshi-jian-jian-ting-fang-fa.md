@@ -21,7 +21,7 @@ bind: function( types, data, fn ) {
 
 实例：
 
-```
+```js
 $('div').bind('click',function(){    
     if($(this).text()=='列表4'){
         $(this).after('<div>列表5</div>');
