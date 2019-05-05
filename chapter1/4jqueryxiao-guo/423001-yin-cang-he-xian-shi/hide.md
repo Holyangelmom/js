@@ -29,8 +29,10 @@ $(selector).hide(speed,easing,callback)
 ##### （4）实例
 
 ```js
-$("#flip").click(function(){
-    $("#panel").slideDown();
+$(".btn1").click(function(){
+	$("p").hide(1000,function(){
+		alert("Hide()方法已完成!");
+	});
 });
 ```
 
