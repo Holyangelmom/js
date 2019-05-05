@@ -1,21 +1,21 @@
-### hide\(\)
+### show\(\)
 
 ##### （1）参考资料
 
-[https://www.runoob.com/jquery/eff-hide.html](https://www.runoob.com/jquery/eff-hide.html)
+https://www.runoob.com/jquery/eff-show.html
 
 ##### （2）定义
 
-hide\(\) 方法隐藏被选元素。
+show\(\) 方法显示隐藏的被选元素。
 
-提示：这与 CSS 属性 display:none 类似。
+注意：show\(\) 适用于通过 jQuery 方法和 CSS 中 display:none 隐藏的元素（不适用于通过 visibility:hidden 隐藏的元素）。
 
-注释：隐藏的元素不会被完全显示（不再影响页面的布局）。
+提示：如需隐藏元素，请查看 hide\(\) 方法。
 
 ##### （3）语法
 
 ```js
-$(selector).hide(speed,easing,callback)
+$(selector).show(speed,easing,callback)
 ```
 
 参数：
