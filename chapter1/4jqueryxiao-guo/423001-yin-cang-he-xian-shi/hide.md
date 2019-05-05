@@ -2,7 +2,7 @@
 
 ##### （1）参考资料
 
-https://www.runoob.com/jquery/eff-hide.html
+[https://www.runoob.com/jquery/eff-hide.html](https://www.runoob.com/jquery/eff-hide.html)
 
 ##### （2）定义
 
@@ -22,7 +22,7 @@ $(selector).hide(speed,easing,callback)
 
 | 参数 | 描述 |
 | :--- | :--- |
-| speed | 可选的。规定效果的时长。 |
+| speed | 可选。规定隐藏效果的速度。可能的值：毫秒、"slow"、"fast" |
 | callback | 可选的。滑动完成后所执行的函数名称 |
 
 ##### （4）实例
@@ -32,8 +32,6 @@ $("#flip").click(function(){
     $("#panel").slideDown();
 });
 ```
-
-
 
 
 
