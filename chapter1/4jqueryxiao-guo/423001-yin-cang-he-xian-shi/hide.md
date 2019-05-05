@@ -23,6 +23,7 @@ $(selector).hide(speed,easing,callback)
 | 参数 | 描述 |
 | :--- | :--- |
 | speed | 可选。规定隐藏效果的速度。可能的值：毫秒、"slow"、"fast" |
+| easing | 可选。规定在动画的不同点上元素的速度。默认值为 "swing"。可能的值："swing" - 在开头/结尾移动慢，在中间移动快、"linear" - 匀速移动 |
 | callback | 可选的。滑动完成后所执行的函数名称 |
 
 ##### （4）实例
