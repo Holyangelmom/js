@@ -17,6 +17,7 @@
     * [4.2、隐藏和显示](chapter1/4jqueryxiao-guo/423001-yin-cang-he-xian-shi.md)
       * [hide\(\)](chapter1/4jqueryxiao-guo/423001-yin-cang-he-xian-shi/hide.md)
       * [show\(\)](chapter1/4jqueryxiao-guo/423001-yin-cang-he-xian-shi/show.md)
+      * [toggle\(\)](chapter1/4jqueryxiao-guo/423001-yin-cang-he-xian-shi/toggle.md)
   * [5、JQuery HTML](chapter1/5jquery-html.md)
     * [5.1、JQuery CSS类](chapter1/5jquery-html/51jquery-csslei.md)
       * [addClass\(\)](chapter1/5jquery-html/51jquery-csslei/addclass.md)
