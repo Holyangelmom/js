@@ -22,15 +22,12 @@ bind: function( types, data, fn ) {
 实例：
 
 ```
-$('div').bind('click',function(){	
-	if($(this).text()=='列表4'){
-		$(this).after('<div>列表5</div>');
-	}
-	alert($(this).text());
- 
- 
+$('div').bind('click',function(){    
+    if($(this).text()=='列表4'){
+        $(this).after('<div>列表5</div>');
+    }
+    alert($(this).text());
 })
-
 ```
 
 
