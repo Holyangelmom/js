@@ -1,4 +1,7 @@
-### 9、JQuery事件监听方法
+### JQuery事件监听方法
+
+1. ##### bind
+2. ##### on
 
 ##### （1）bind
 
@@ -58,7 +61,7 @@ on(type,[selector],[data],fn)
 实例：
 
 ```js
-$('div').on('click','p',function(){	
+$('div').on('click','p',function(){    
     $('p').css('color','red');
 }
 ```
