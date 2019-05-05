@@ -62,4 +62,5 @@
     * [7.5、移除dom元素](javascript/7jszeng-shan-html-dom-yuan-su/753001-yi-chu-dom-yuan-su.md)
   * [8、比较两个日期的大小的2种方法](javascript/83001-bi-jiao-liang-ge-ri-qi-de-da-xiao-de-2-zhong-fang-fa.md)
   * [9、关闭iframe](javascript/93001-guan-bi-iframe.md)
+  * [10、IE中ajax或者跳转url中带中文参数的坑](javascript/10iezhong-ajax-huo-zhe-tiao-zhuan-url-zhong-dai-zhong-wen-can-shu-de-keng.md)
 
