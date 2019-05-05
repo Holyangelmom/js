@@ -2,7 +2,7 @@
 
 ##### （1）bind
 
- bind是使用频率较高的一种，作用就是在选择到的元素上绑定特定事件类型的监听函数。
+bind是使用频率较高的一种，作用就是在选择到的元素上绑定特定事件类型的监听函数。
 
 语法：
 
@@ -10,7 +10,7 @@
 bind(type,[data],function(eventObject))
 ```
 
-参数如下：
+参数：
 
 * type:事件类型，如click、change、mouseover等；
 * data:传入监听函数的参数，通过event.data取到；
@@ -38,9 +38,19 @@ $('div').bind('click',function(){
 
 ##### （2）on
 
-   on\(type,\[selector\],\[data\],fn\)
+语法：
 
-参数与delegate差不多但还是有细微的差别，首先type与selector换位置了，其次selector变为了可选项。
+```js
+on(type,[selector],[data],fn)
+```
+
+参数：
+
+参数如下：
+
+* type:事件类型，如click、change、mouseover等；
+* data:传入监听函数的参数，通过event.data取到；
+* function:监听函数，可传入event对象，这里的event是jquery封装的event对象。
 
 on\(\) 方法在被选元素及子元素上添加一个或多个事件处理程序。
 
@@ -48,15 +58,15 @@ on\(\) 方法在被选元素及子元素上添加一个或多个事件处理程�
 
 代码，实现效果同上，把delegate改为on，第一个参数为click，第二个参数p可写可不写，第三个参数同上。
 
+```
+$\(function\(\){
 
+        $\('div'\).on\('click','p',function\(\){    
 
-	$\(function\(\){
+            $\('p'\).css\('color','red'\);    
 
-			$\('div'\).on\('click','p',function\(\){	
-
-				$\('p'\).css\('color','red'\);	
-
-			}\);
+        }\);
+```
 
 
 
