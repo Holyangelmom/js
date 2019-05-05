@@ -46,11 +46,10 @@ on(type,[selector],[data],fn)
 
 参数：
 
-参数如下：
-
-* type:事件类型，如click、change、mouseover等；
-* data:传入监听函数的参数，通过event.data取到；
-* function:监听函数，可传入event对象，这里的event是jquery封装的event对象。
+* type：事件类型，如click、change、mouseover等；
+* selector：可选，被选元素及子元素；
+* data：可选，通过event.data取到；
+* function：监听函数，可传入event对象，这里的event是jquery封装的event对象。
 
 on\(\) 方法在被选元素及子元素上添加一个或多个事件处理程序。
 
